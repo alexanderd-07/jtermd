@@ -1,0 +1,57 @@
+version: 1
+project:
+  title: "Signal Processing for Respiratory Rate Detection: Analyzing ECG Data with FFT and RSA Methods"
+  description: This study explores identifying respiratory rate (RR) through an electrocardiogram (EKG) data analysis using Fast Fourier Transform inspired open source programs for respiratory sinus arrhythmia (RSA).
+  keywords:
+   - Respiratory sinus arrhythmia 
+   - EKG-derived respiration
+   - respiratory rate estimation
+   - wearable technology
+  subject: Bioelectronics
+  author:
+    - name: Alexander Dickens
+      corresponding: true
+      orcid: 0009-0000-3594-6291
+      affiliation: NCSSM
+      email: dickens25a@ncssm.edu
+      roles: 
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Funding acquisition
+        - Investigation 
+        - Methodology 
+        - Project administration 
+        - Software 
+        - Resources 
+        - Supervision 
+        - Validation 
+        - Visualization 
+        - Writing original draft 
+        - Writing review & editing
+    - name: Alexandria Hinkle
+      affiliation: NCSSM
+      roles: 
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Funding acquisition
+        - Investigation 
+        - Methodology 
+        - Project administration 
+        - Software 
+        - Resources 
+        - Supervision 
+        - Validation 
+        - Visualization 
+        - Writing original draft 
+        - Writing review & editing
+  abbreviations:
+    RSA: respiratory sinus arrhythmia
+    EKG: electrocardiogram
+    RR: respiratory rate
+    FFT: Fast Fourier Transform
+    EMG: electromyography
+    ECG: electrocardiogram
+site:
+  template: article-theme
