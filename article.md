@@ -17,9 +17,14 @@ The study used a signal analysis design, with EKG data as the dependent variable
 First, participants sat comfortably, with their forearms resting on their thighs or armrests. The electrodes were attached as follows: Three electrode patches were applied to the subject at specific locations: one on the inside of the right wrist, one on the inside of the right upper forearm (distal to the elbow), and one on the inside of the left upper forearm. Two electrodes were placed along the muscle of interest, with one ground electrode above or below the adjacent joint, or alternatively on the wrist of the other arm, to reduce motion artifacts(@https://doi.org/10.1038/s41598-023-50470-0 ,@https://doi.org/10.3390/diagnostics14030284). The collection of data was done with Vernier Graphical Analysis.
 Before analysis, the EKG signal was pre-processed with a bandpass filter (0.5-150 Hz range)(Fig. 3, 2). To compute the respiratory rate and frequency analysis, the signal was analyzed spectrally using Python's scipy.signal.welch library (@https://doi.org/10.1038/s41598-023-50470-0). Peaks in the EKG data were detected using scipy.signal.find_peaks, and they were then evaluated in conjunction with the respiration rate computation(@https://doi.org/10.1038/s41598-023-50470-0 , @https://doi.org/10.3390/s21010078).
 
-| Time | R-Peaks |
-| --- | --- |
-| baz | bim |
+| Index | Data Set 3:Time(s) | Data Set 3:Potential(mV) | Data Set 3:EKG(mV) |
+| --- | --- | --- | ---|
+0 | 0.000 | -0.047928 | -0.002211 |
+1 | 0.005 | -0.046707 | -0.009467 |
+2 | 0.010 | 0.049881 | -0.015508 |
+3 | 0.015 | 0.061325 | -0.010341 |
+4 | 0.020 | 0.051102 | 0.004425 |
+
 
 ```{figure} img/labeledekg.jpeg
 :label: labeled
